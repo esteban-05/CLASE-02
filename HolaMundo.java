@@ -1,3 +1,4 @@
+ 
 import java.util.Scanner;
 
 
@@ -25,7 +26,7 @@ public class HolaMundo {
         var entrada = new Scanner(System.in);
 
         System.out.print( "Por favor ingrese su nombre:" );
-        var entero = entrada.nextline();
+        var entero = entrada.nextLine();
 
         System.out.println(entero);
 
